@@ -1,0 +1,38 @@
+.Episode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    gap: 20px;
+    border-radius: 5px;
+    margin-top: 5px;    
+
+    color: #fff;
+    background-color: #1D1D1D;
+
+    img{
+        height: 70px;
+    }
+
+    .details{
+        flex: 1;
+
+        h3{
+            font-size: 14px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+
+    }
+
+    .more{
+        img{
+            height: 32px;
+        }        
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "pej-ionic",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

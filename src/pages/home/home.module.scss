@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #333333;
+
+    
+    header{
+        background-color: #1D1D1D;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 70px;
+
+        img{
+            height: 100%;
+        }
+
+    }
+
+    section{
+        flex: 1;
+        overflow-y: scroll;
+        padding: 5px;
+        gap: 5px;
+        position: relative;
+
+        .fab{
+            position: absolute;
+            padding: 5px;
+            background-color: #eb3337;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 15px;
+            right: 15px;
+
+            img{
+                height: 38px;
+                width: 38px;
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,49 @@
+.PlayerControl{
+    background-color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: content-box;
+    color: #fff !important;
+
+    .progressBar{
+        display: flex;
+        flex-direction: row;      
+        gap: 1rem;
+        font-size: 0.875rem;
+        padding: 15px 10px;
+
+        .slider{
+            display: flex;
+            flex: 1;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+
+    .controls{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            padding: 5px;
+            box-sizing: border-box;
+
+            img{
+                width: 28px;
+                cursor: pointer;
+            }
+        }
+    }
+}

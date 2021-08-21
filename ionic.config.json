@@ -1,0 +1,7 @@
+{
+  "name": "pej-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

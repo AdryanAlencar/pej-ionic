@@ -1,0 +1,90 @@
+.Episode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    gap: 20px;
+    border-radius: 5px;
+    margin-top: 5px;    
+
+    color: #fff;
+    background-color: #1D1D1D;
+
+    .loading{
+        position: absolute;
+        background-color: #1d1d1de0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+
+        &.hide{
+            display: none;
+        }
+
+        img{
+            -webkit-animation:spin 4s linear infinite;
+            -moz-animation:spin 4s linear infinite;
+            animation:spin 4s linear infinite;
+        }
+    }
+
+    img{
+        height: 70px;
+    }
+
+    .details{
+        flex: 1;
+
+        h3{
+            font-size: 14px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+
+    }
+
+    .more{
+        display: flex;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            margin: auto;
+        }
+
+        button{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0,0,0,0);
+            border: none;
+            color: #eb3337;
+            text-decoration: underline;
+            cursor: pointer;
+            margin: auto;
+
+            *{
+                cursor: pointer;
+                margin: 5px;
+            }
+        }
+
+        img{
+            height: 16px;
+        }        
+    }
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
