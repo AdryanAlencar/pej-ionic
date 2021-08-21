@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PEJCast</string>
+    <string name="title_activity_main">PEJCast</string>
+    <string name="package_name">br.com.pej.podcaster</string>
+    <string name="custom_url_scheme">br.com.pej.podcaster</string>
+</resources>
